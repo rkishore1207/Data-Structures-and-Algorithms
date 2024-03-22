@@ -22,7 +22,7 @@
 - [Refernce Image](image.png)
 - If arr[mid] == 0 => swap(arr[mid],arr[low]) => mid++,low++;
 - If arr[mid] == 1 => mid++;
-- If arr[mid] == 1 => swap(arr[mid],arr[high]) => high--;
+- If arr[mid] == 2 => swap(arr[mid],arr[high]) => high--;
 
 ```C#
     public class Solution {
