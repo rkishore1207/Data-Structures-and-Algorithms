@@ -32,7 +32,7 @@ public class Solution {
             if(sum < 0) // changing the sum into zero if it is negative because negative value reduce the total sum
                 sum = 0;
         }
-        return maxSum;
+        return maxSum;//
     }
 }
 ```
