@@ -64,3 +64,7 @@ It can be shown that this is the minimum achievable cost.
         }
     }
 ```
+
+![Recursive Tree](https://github.com/user-attachments/assets/deca4dfb-a40b-4eab-acf0-05dfc46edc5f)
+
+![Recurrence Relation](https://github.com/user-attachments/assets/bcaccbbe-c17e-4b4f-ba4f-c8eac24675da)
