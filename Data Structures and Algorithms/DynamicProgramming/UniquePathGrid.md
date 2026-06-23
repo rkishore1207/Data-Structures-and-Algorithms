@@ -27,17 +27,15 @@
             else if (i < 0 || j < 0)
                 return 0;
 
-            int left, top;
             if (dp[i, j] != -1)
-                left = dp[i, j];
+                return dp[i, j];
 
-            if (dp[i, j] != -1)
-                top = dp[i, j];
+            int left = UniquePathGrid(i - 1, j, dp);
+            int top = UniquePathGrid(i, j - 1, dp);
 
-            left = UniquePathGrid(i - 1, j, dp);
-            top = UniquePathGrid(i, j - 1, dp);
+            dp[i, j] = left + top;
 
-            return left + top;
+            return dp[i, j];
         }
     }
 ```
